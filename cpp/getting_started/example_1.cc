@@ -1,6 +1,7 @@
 // hello.cc: as-night
 // Description: a program that prints the immortal saying "hello world"
 
+#include <cstdlib>
 #include <iostream>
 #include <string>
 
@@ -19,4 +20,6 @@ int main() {
     std::cout << '\n';
   }
   std::cout << '\n';
+
+  return EXIT_SUCCESS;
 }
